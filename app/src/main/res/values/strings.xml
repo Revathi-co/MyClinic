@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">MyClinic</string>
+    <string name="submit">Submit</string>
+    <string name="basic_fee_rs">Basic Fee(Rs)</string>
+    <string name="location_city">Location(City)</string>
+    <string name="certifications">Certifications</string>
+    <string name="qualifications">Qualifications</string>
+    <string name="experience">Experience</string>
+    <string name="doctor_details">Doctor Details</string>
+
+    <string-array name="locations">
+        <item>"Location1"</item>
+        <item>"Location2"</item>
+        <item>"Location3"</item>
+    </string-array>
+
+    <string-array name="Specialization">
+        <item>--Specialization--</item>
+        <item> Allergist</item>
+        <item> Anaesthesiologist</item>
+        <item> Andrologist</item>
+        <item> Cardiologist</item>
+        <item> Cardiac Electrophysiologist</item>
+        <item> Dermatologist</item>
+        <item> dentist</item>
+        <item>Dentist</item>
+        <item> Emergency Room (ER) Doctors</item>
+        <item> Endocrinologist</item>
+        <item> Epidemiologist</item>
+        <item> Family Medicine Physician</item>
+        <item> Gastroenterologist</item>
+        <item> Geriatrician</item>
+        <item> Hyperbaric Physician</item>
+        <item> Hematologist</item>
+        <item> Hepatologist</item>
+        <item> Immunologist</item>
+        <item> Infectious Disease Specialist</item>
+        <item> Intensivist</item>
+        <item> Internal Medicine Specialist</item>
+        <item> Maxillofacial Surgeon / Oral Surgeon</item>
+        <item> Medical Examiner</item>
+        <item> Medical Geneticist</item>
+        <item> Neonatologist</item>
+        <item> Nephrologist</item>
+        <item> Neurologist</item>
+        <item> Neurosurgeon</item>
+        <item> Nuclear Medicine Specialist</item>
+        <item> Obstetrician/Gynecologist (OB/GYN) </item>
+        <item> Occupational Medicine Specialist</item>
+        <item> Oncologist</item>
+        <item> Ophthalmologist</item>
+        <item> Orthopedic Surgeon / Orthopedist</item>
+        <item> Otolaryngologist (also ENT Specialist) </item>
+        <item> Parasitologist</item>
+        <item> Pathologist</item>
+        <item> Perinatologist</item>
+        <item> Periodontist</item>
+        <item> Pediatrician</item>
+        <item> Physiatrist</item>
+        <item> Plastic Surgeon</item>
+        <item> Psychiatrist</item>
+        <item> Pulmonologist</item>
+        <item> Radiologist</item>
+        <item> Rheumatologist</item>
+        <item> Sleep Doctor / Sleep Disorders Specialist</item>
+        <item> Spinal Cord Injury Specialist</item>
+        <item> Sports Medicine Specialist</item>
+        <item> Surgeon</item>
+        <item> Thoracic Surgeon</item>
+        <item> Urologist</item>
+        <item> Vascular Surgeon</item>
+        <item> Veterinarian</item>
+        <item> Palliative Care Specialist</item>
+        <item>--Non-medical Specialists--</item>
+        <item> Acupuncturist</item>
+        <item> Audiologist</item>
+        <item> Ayurvedic Practioner</item>
+        <item> Chiropractor</item>
+        <item> Diagnostician</item>
+        <item> Homeopathic Doctor</item>
+        <item> Microbiologist</item>
+        <item> Naturopathic Doctor</item>
+        <item> Pharmacist</item>
+        <item> Physiotherapist</item>
+        <item> Podiatrist / Chiropodist</item>
+        <item> Registered Massage Therapist</item>
+    </string-array>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="change_password">change password?</string>
+    <string name="edit">Edit</string>
+    <string name="phone">phone</string>
+    <string name="Update" />
+    <string name="specialist">Specialist</string>
+    <string name="update">Update</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="hospital_clinic_address">Hospital/ Clinic Address</string>
+    <string name="service_time_to">Service Time(To)</string>
+    <string name="timings">Timings</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="default_notification_channel_id">defualt channel</string>
+
+
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LocationInfo">
+
+    <TextView
+        android:id="@+id/tvlocationNo"
+        android:layout_width="160dp"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:text="location"
+        android:textColor="#0E0C0C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.158" />
+
+    <EditText
+        android:id="@+id/etHosName"
+        android:layout_width="237dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="Hospital/ Clinic Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvlocationNo"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="236dp"
+        android:layout_height="122dp"
+        android:ems="10"
+        android:hint="@string/hospital_clinic_address"
+        android:inputType="textPostalAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etHosName"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <EditText
+        android:id="@+id/etCity"
+        android:layout_width="244dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="@string/location_city"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAddress"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <Button
+        android:id="@+id/btnLocSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etTimeFrom"
+        app:layout_constraintVertical_bias="0.256" />
+
+    <EditText
+        android:id="@+id/etTimeFrom"
+        android:layout_width="102dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="@string/from"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etCity"
+        app:layout_constraintVertical_bias="0.403" />
+
+    <EditText
+        android:id="@+id/etTimeTo"
+        android:layout_width="96dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/to"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.37"
+        app:layout_constraintStart_toEndOf="@+id/etTimeFrom"
+        app:layout_constraintTop_toBottomOf="@+id/etCity"
+        app:layout_constraintVertical_bias="0.396" />
+
+    <TextView
+        android:id="@+id/etTime"
+        android:layout_width="237dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:text="@string/timings"
+        android:textColor="#131313"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etCity"
+        app:layout_constraintVertical_bias="0.118" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

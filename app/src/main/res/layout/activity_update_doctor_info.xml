@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateDoctorInfo">
+
+    <TextView
+        android:id="@+id/tvSpecialist"
+        android:layout_width="221dp"
+        android:layout_height="33dp"
+        android:ems="10"
+        android:hint="@string/specialist"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.191" />
+
+    <TextView
+        android:id="@+id/tvExperience"
+        android:layout_width="222dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="@string/experience"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etSpecialist"
+        app:layout_constraintVertical_bias="0.04"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/tvQualifications"
+        android:layout_width="223dp"
+        android:layout_height="84dp"
+        android:ems="10"
+        android:hint="@string/qualifications"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etExperience"
+        app:layout_constraintVertical_bias="0.033"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/tvCertifications"
+        android:layout_width="219dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint="@string/certifications"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etQualifications"
+        app:layout_constraintVertical_bias="0.033"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="222dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="@string/location_city"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etCertifications"
+        app:layout_constraintVertical_bias="0.074"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/tvFees"
+        android:layout_width="222dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="@string/basic_fee_rs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etLocation"
+        app:layout_constraintVertical_bias="0.079"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etFees"
+        app:layout_constraintVertical_bias="0.203" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="131dp"
+        android:layout_height="29dp"
+        android:text="@string/doctor_details"
+        android:textColor="#3F51B5"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <Spinner
+        android:id="@+id/etSpecialist"
+        android:layout_width="220dp"
+        android:layout_height="32dp"
+        android:autofillHints="Specialist"
+        android:ems="10"
+        android:entries="@array/Specialization"
+        android:inputType="textPersonName"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.191" />
+
+    <EditText
+        android:id="@+id/etExperience"
+        android:layout_width="222dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="@string/experience"
+        android:inputType="number"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etSpecialist"
+        app:layout_constraintVertical_bias="0.04"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/etQualifications"
+        android:layout_width="223dp"
+        android:layout_height="84dp"
+        android:ems="10"
+        android:hint="@string/qualifications"
+        android:inputType="textPersonName"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etExperience"
+        app:layout_constraintVertical_bias="0.033"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/etCertifications"
+        android:layout_width="219dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint="@string/certifications"
+        android:inputType="textPersonName"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etQualifications"
+        app:layout_constraintVertical_bias="0.033"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/etLocation"
+        android:layout_width="222dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="@string/location_city"
+        android:inputType="textPersonName"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etCertifications"
+        app:layout_constraintVertical_bias="0.074"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/etFees"
+        android:layout_width="222dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="@string/basic_fee_rs"
+        android:inputType="number"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etLocation"
+        app:layout_constraintVertical_bias="0.079"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etFees"
+        app:layout_constraintVertical_bias="0.203" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
